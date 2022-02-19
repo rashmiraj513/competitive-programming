@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int t; cin>>t;
+    while(t--) {
+        int x, m, d; cin>>x>>m>>d;
+        cout<<min(m*x, x+d)<<endl;
+    }
+	return 0;
+}
