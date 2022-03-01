@@ -8,8 +8,8 @@ int fibbonacciNumber(int n) {
 }
 int main() {
     int t; cin>>t;
-    while (t--) {
-        long long n; cin>>n;
+    while(t--) {
+        int n; cin>>n;
         cout<<fibbonacciNumber(n)<<endl;
     }
     return 0;
