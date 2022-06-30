@@ -2,7 +2,7 @@
 using namespace std;
 int solve(string str) {
     long int res = 0, num = 0;
-    for(int i = 0;i < str.length();i++) {
+    for(int i = 0; i < str.length(); i++) {
         if(str[i] >= '0' && str[i] <= '9') num = num * 10 + (str[i] - '0');
         else {
             res += num; num = 0;
